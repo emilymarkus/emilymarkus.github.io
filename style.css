@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Allura');
+
+body{
+  background-color: #d9f2d9;
+}
+
+#container{
+  max-width: 1000px;
+  min-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+nav{
+  position: absolute;
+  top:0;
+  width:900px;
+  margin: 0 auto;
+}
+
+nav ul{
+  margin:20px 0;
+}
+
+nav li{
+  display: inline-block;
+  padding-right: 25px;
+  padding-left: 20px;
+  color:#FF6347;
+}
+
+nav li a{
+  color: #404040;
+}
+
+nav li a:hover{
+  background-color:#a0dea0;
+}
+
+
+main{
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+
+img{
+  height: 250px;
+  width: auto;
+  border: 2px solid #666666;
+}
+
+p{
+  font-family: 'Noto Serif',serif;
+  padding: 0 30px 0 30px;
+}
+
+li{
+  font-family: 'Noto Serif',serif;
+}
+
+h1{
+  font-family: 'Allura', cursive;
+  color: #FF6347;
+  margin-bottom: 0;
+  font-size: 85px;
+  padding: 10px 0 0 30px;
+}
+
+h2{
+  border-bottom: 1px solid #404040;
+  font-family: 'Baloo';
+  font-size: 45px;
+  color: #404040;
+  padding-left: 30px;
+  margin: 0;
+}
+
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  color: #808080;
+  padding-left: 30px;
+  margin: 0;
+}
+
+section {
+  width:470px;
+  background-color: #faeaea;
+  top: 0;
+}
+
+article {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+iframe{
+  width:640px;
+  height:360px;
+}
+
+.caption{
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+#emily,#statue{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#umtv{
+  height: 250px;
+  width: auto;
+  float:right;
+  margin-top: 10px;
+}
+
+#left-col {
+  margin-left: 10px;
+  float: left;
+  width: 45%;
+}
+
+#right-col {
+  margin-right: 10px;
+  float: right;
+  width: 45%;
+}
+
+#espn{
+  height: 285px;
+  width: auto;
+}
+
+#denzel,#studio,#miamiopen{
+  width:600px;
+  height:auto;
+}
